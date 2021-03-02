@@ -3,21 +3,18 @@ body{
     font-family: "Segoe UI", serif;
 }
 
-span{
-    color: seagreen;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-p{
-    color: darkgreen;
-    width: 220px;
-    padding-left: 20px;
-}
 
 body{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-size: 12px;
+    flex-wrap: nowrap;
+}
+
+#info{
+    width: calc(100vw / 5);
+    border: 1px solid red;
+    font-size: 1rem;
+    padding-left: 2%;
+    margin-left: 2%;
 }
